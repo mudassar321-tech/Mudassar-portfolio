@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mudassar Murtaza | Freelance Digital Marketer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffe6e6, #e0f7fa);
+      color: #333;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 5px solid #ffab91;
+    }
+    nav {
+      background-color: #fff3e0;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #ff6f61;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    .card h3 {
+      color: #ff6f61;
+    }
+    footer {
+      background-color: #ffccbc;
+      padding: 1rem;
+      text-align: center;
+      color: #555;
+    }
+    .cta {
+      background-color: #ffab91;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+      margin: 2rem 0;
+    }
+    .cta a {
+      background: #ff6f61;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mudassar Murtaza</h1>
+    <p>Your Partner in Digital Growth</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Digital Marketing</h3>
+        <p>Helping brands grow through SEO, email campaigns, and audience targeting to deliver real ROI.</p>
+      </div>
+      <div class="card">
+        <h3>Meta Ads Manager</h3>
+        <p>Running high-converting Facebook and Instagram ads, scaling your business with proven strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Mudassar Murtaza, a passionate freelancer dedicated to helping businesses flourish in the digital world. With years of experience in digital marketing and Meta Ads, I blend creativity with data-driven strategies to create emotional connections and impactful results.</p>
+  </section>
+
+  <div class="cta">
+    <h2>Ready to Grow Your Business?</h2>
+    <p>Let’s create something amazing together. Contact me today!</p>
+    <a href="#contact">Get in Touch</a>
+  </div>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:mudassar@example.com">mudassar@example.com</a></p>
+    <p>Phone: +123-456-7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mudassar Murtaza. All rights reserved.</p>
+  </footer>
+</body>
+</html>
